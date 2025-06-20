@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tailwind Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-blue-600 text-white p-4 shadow-md">
+    <h1 class="text-2xl font-bold">ようこそ！</h1>
+    <p class="text-sm">Tailwind CSS を使ったシンプルなホームページ</p>
+  </header>
+
+  <main class="max-w-3xl mx-auto mt-8 p-4 bg-white rounded-lg shadow">
+    <h2 class="text-xl font-semibold mb-4">自己紹介</h2>
+    <p class="mb-4">こんにちは！これは Tailwind CSS を使って作られたサンプルページです。</p>
+
+    <h3 class="text-lg font-semibold mb-2">好きなこと</h3>
+    <ul class="list-disc pl-5 space-y-1">
+      <li>プログラミング</li>
+      <li>デザイン</li>
+      <li>旅行</li>
+    </ul>
+
+    <div class="mt-6">
+      <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">もっと見る</a>
+    </div>
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 mt-12 p-4">
+    &copy; 2025 My Tailwind Page
+  </footer>
+</body>
+</html>
